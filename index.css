@@ -1,0 +1,60 @@
+.InHeader {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(173, 216, 230);
+  align-items: center;
+}
+.hr1 {
+  height: 2px;
+  border-width: 0;
+  background-color: gray;
+}
+.vl1 {
+  border-left: 4px solid lightpink;
+  height: 15px;
+  padding-left: 9px;
+  margin-left: 9px;
+}
+.middlePart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  border-radius: 20px;
+  background-color: #ebfefe;
+}
+.middlePartUl {
+  list-style: none;
+  padding: 5px 15px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.navBarClass {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.colorBg{
+  border-radius: 20px;
+  background-color: #ebfefe;
+  padding: 30px;
+  width: 1000px
+}
+.h1Class{
+  text-align: center;
+}
